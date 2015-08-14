@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API documentation</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link type='text/css' rel='stylesheet' href='./apidoc/stylesheets/bundled/bootstrap.min.css'/>
+<link type='text/css' rel='stylesheet' href='./apidoc/stylesheets/bundled/prettify.css'/>
+<link type='text/css' rel='stylesheet' href='./apidoc/stylesheets/bundled/bootstrap-responsive.min.css'/>
+  <link type='text/css' rel='stylesheet' href='./apidoc/stylesheets/application.css'/>
+  <!-- IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div id='container'>
+          <h4><a href='#players'>Players</a></h4>
+  <ul>
+      <li><a href='#players-index'>index</a></li>
+      <li><a href='#players-create'>create</a></li>
+  </ul>
+
+
+
+<div>
+<p>API URL is &#39;localhost:3000/api&#39;</p>
+
+<p>All requests (except doc_upload) must have &#39;Content-Type&#39; :
+&#39;Application/json&#39; as a Header</p>
+</div>
+
+<hr>
+
+
+  <ul class='breadcrumb'  id='players'>
+    <li><a href='#'>DraftKings</a><span class='divider'>/</span></li>
+    <li class='active'>Players</li>
+  </ul>
+
+  <div class='page-header'>
+    <h1>
+      <a href='#players'>Players</a><br>
+      <small></small>
+    </h1>
+  </div>
+
+
+  <div class='accordion' id='accordion'>
+
+      <hr>
+
+      <ul class='breadcrumb' id='players-index'>
+        <li>
+          <a href='#'>DraftKings</a>
+          <span class='divider'>/</span>
+        </li>
+        <li>
+          <a href='#players'>Players</a>
+          <span class='divider'>/</span>
+        </li>
+        <li class='active'>index</li>
+      </ul>
+
+      <div>
+          <h3>
+            <a href='#players-index'>
+              GET /api/v1/players
+            </a><br>
+            <small>Retrieve all players</small>
+          </h3>
+      </div>
+
+      <div>
+        
+<p>Show all players</p>
+
+          <h2>Examples</h2>
+            <pre>
+RESPONSE
+{
+  &quot;players&quot;: [
+    {
+      &quot;id&quot;: 1,
+      &quot;name_brief&quot;: &quot;D. A.&quot;,
+      &quot;first_name&quot;: &quot;David&quot;,
+      &quot;last_name&quot;: &quot;Aardsma&quot;,
+      &quot;position&quot;: &quot;RP&quot;,
+      &quot;age&quot;: 33,
+      &quot;average_position_age_diff&quot;: &quot;+5&quot;
+    },
+    {
+      &quot;id&quot;: 2,
+      &quot;name_brief&quot;: &quot;F. A.&quot;,
+      &quot;first_name&quot;: &quot;Fernando&quot;,
+      &quot;last_name&quot;: &quot;Abad&quot;,
+      &quot;position&quot;: &quot;RP&quot;,
+      &quot;age&quot;: 29,
+      &quot;average_position_age_diff&quot;: &quot;+1&quot;
+    },
+    ...
+  ]
+}
+</pre>
+
+
+      </div>
+      <hr>
+
+      <ul class='breadcrumb' id='players-create'>
+        <li>
+          <a href='#'>DraftKings</a>
+          <span class='divider'>/</span>
+        </li>
+        <li>
+          <a href='#players'>Players</a>
+          <span class='divider'>/</span>
+        </li>
+        <li class='active'>create</li>
+      </ul>
+
+      <div>
+          <h3>
+            <a href='#players-create'>
+              POST /api/v1/players
+            </a><br>
+            <small>Create Player</small>
+          </h3>
+      </div>
+
+      <div>
+        
+<p>Add a new player</p>
+
+          <h2>Examples</h2>
+            <pre>
+RESPONSE
+{
+
+}
+</pre>
+
+
+      </div>
+  </div>
+
+
+        
+      </div>
+    </div>
+    <hr>
+    <footer></footer>
+  </div>
+  <script type='text/javascript' src='./apidoc/javascripts/bundled/jquery-1.7.2.js'></script>
+<script type='text/javascript' src='./apidoc/javascripts/bundled/bootstrap-collapse.js'></script>
+<script type='text/javascript' src='./apidoc/javascripts/bundled/prettify.js'></script>
+<script type='text/javascript' src='./apidoc/javascripts/apipie.js'></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+  <h4><a href='#players'>Players</a></h4>
+  <ul>
+      <li><a href='#players-index'>index</a></li>
+      <li><a href='#players-create'>create</a></li>
+  </ul>
+
+
+
+  <hr/>
+
+  <div>
+    <h2 id="players">
+      <a href='#players'>Players</a><br>
+      <small></small>
+    </h2>
+  </div>
+
+
+  <div>
+
+      <hr/>
+
+      <h3 id="players-index">
+      <a href='#players'>Players</a> / <a href='#players-index'>index</a>
+      </h3>
+
+      <div>
+          <h4>
+              GET /api/v1/players
+            <br>
+            <small>Retrieve all players</small>
+          </h4>
+      </div>
+
+      <div>
+        
+<p>Show all players</p>
+
+          <h4>Examples</h4>
+            <pre class="wiki">
+RESPONSE
+{
+  &quot;players&quot;: [
+    {
+      &quot;id&quot;: 1,
+      &quot;name_brief&quot;: &quot;D. A.&quot;,
+      &quot;first_name&quot;: &quot;David&quot;,
+      &quot;last_name&quot;: &quot;Aardsma&quot;,
+      &quot;position&quot;: &quot;RP&quot;,
+      &quot;age&quot;: 33,
+      &quot;average_position_age_diff&quot;: &quot;+5&quot;
+    },
+    {
+      &quot;id&quot;: 2,
+      &quot;name_brief&quot;: &quot;F. A.&quot;,
+      &quot;first_name&quot;: &quot;Fernando&quot;,
+      &quot;last_name&quot;: &quot;Abad&quot;,
+      &quot;position&quot;: &quot;RP&quot;,
+      &quot;age&quot;: 29,
+      &quot;average_position_age_diff&quot;: &quot;+1&quot;
+    },
+    ...
+  ]
+}
+</pre>
+
+
+      </div>
+      <hr/>
+
+      <h3 id="players-create">
+      <a href='#players'>Players</a> / <a href='#players-create'>create</a>
+      </h3>
+
+      <div>
+          <h4>
+              POST /api/v1/players
+            <br>
+            <small>Create Player</small>
+          </h4>
+      </div>
+
+      <div>
+        
+<p>Add a new player</p>
+
+          <h4>Examples</h4>
+            <pre class="wiki">
+RESPONSE
+{
+
+}
+</pre>
+
+
+      </div>
+  </div>
