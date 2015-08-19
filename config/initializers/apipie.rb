@@ -6,9 +6,6 @@ Apipie.configure do |config|
   config.validate                = false
   config.app_info["1.0"] = "
     API URL is 'localhost:3000/api/v1'
-
-    All requests (except doc_upload) must have
-    'Content-Type' : 'Application/json' as a Header
   "
   # where is your API defined?
   config.api_controllers_matcher = "#{Rails.root}/app/controllers/**/*.rb"
